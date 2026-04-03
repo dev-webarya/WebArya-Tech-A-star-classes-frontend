@@ -92,9 +92,6 @@ const Login = () => {
             Sign Up
           </Link>
         </p>
-        <p className="mt-3 text-center text-xs text-gray-500">
-          Admin login: admin / SecureAdmin@2026
-        </p>
       </div>
     </div>
   );
