@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: astar_frontend
+    ports:
+      # Exposes internal Nginx port 80 to the requested external port 9015
+      - "9015:80"
+    env_file:
+      - .env
+    restart: unless-stopped

@@ -1,0 +1,11 @@
+node_modules
+dist
+.git
+.gitignore
+.vscode
+README.md
+
+# NOTE: .env is INTENTIONALLY NOT ignored here. 
+# Vite requires the .env file during the `npm run build` process to embed the VITE_* 
+# environment variables into the static javascript bundle. The final Nginx production 
+# image does not keep the .env file, remaining secure.
