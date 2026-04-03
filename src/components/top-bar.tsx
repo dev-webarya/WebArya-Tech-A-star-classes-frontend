@@ -58,12 +58,12 @@ const TopBar = () => {
           >
             Login
           </Link>
-          <Link
+          {/* <Link
             to="/signup"
             className="text-xs bg-white text-[#003366] px-3 py-1 rounded font-semibold hover:bg-[#FFD600] transition"
           >
             Sign Up
-          </Link>
+          </Link> */}
         </div>
 
         {/* Mobile menu button */}
